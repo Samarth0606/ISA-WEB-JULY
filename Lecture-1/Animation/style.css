@@ -1,0 +1,66 @@
+
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    animation-play-state: paused;
+    animation-name: something;
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    /* animation-iteration-count: 2; */
+    animation-direction: normal;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-fill-mode: forwards; */
+    animation-fill-mode: backwards;
+}
+
+.box:hover{
+    
+    animation-play-state:running ;
+
+}
+
+/* @keyframes something {
+    from{
+        height: 100px;
+    }
+    to{
+        height: 500px;
+        background-color: red;
+    }
+} */
+
+@keyframes something {
+    0%{
+        height: 100px;
+    }
+    25%{
+        height: 600px;
+    }
+    50%{
+        height: 300px;
+    }
+    75%{
+        height: 500px;
+    }
+    100%{
+        height: 200px;
+        background-color: red;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

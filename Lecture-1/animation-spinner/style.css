@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid red;
+    border-right: 5px solid green;
+    border-left: 5px solid blue;
+    border-bottom: 5px solid yellow;
+    border-radius: 50%;
+
+    animation-name: loading;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes loading {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+

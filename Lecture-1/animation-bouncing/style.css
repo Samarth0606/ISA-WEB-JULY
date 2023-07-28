@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    margin: 10px auto;
+}
+
+
+
+.ball{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(blue,red,green , yellow);
+    border: 5px solid black;
+    animation-name: bounce ;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: linear; */
+    /* animation-timing-function: ease-in-out; */
+
+}
+
+@keyframes bounce {
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(80vh);
+
+    }
+}
+
+
+
+
+
+
+
+

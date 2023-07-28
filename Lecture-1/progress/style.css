@@ -1,0 +1,34 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+div:hover{
+    animation: progress;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.one{
+    animation-timing-function: ease-in;
+}
+.two{
+    animation-timing-function: linear;
+}
+.three{
+    animation-timing-function: ease-in-out;
+}
+.four{
+    animation-timing-function: ease-out;
+}
+
+
+@keyframes progress {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(800px);
+    }
+    
+} */
